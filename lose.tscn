@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b72r2nq33shb8"]
+
+[node name="lose" type="CanvasLayer" unique_id=1594814024]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1213420558]
+anchors_preset = -1
+anchor_left = -0.011000001
+anchor_right = -0.011000001
+offset_left = 12.672001
+offset_right = 1161.672
+offset_bottom = 647.0
+color = Color(0, 0, 0, 1)
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=648898533]
+offset_left = 489.0
+offset_top = 266.0
+offset_right = 626.0
+offset_bottom = 337.0
+text = "ХА ХА ХА ЛОХ"

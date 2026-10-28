@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://6td5ry30e4p2"]
+
+[node name="win" type="CanvasLayer" unique_id=1720939869]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=755108186]
+offset_right = 1150.0
+offset_bottom = 648.0
+color = Color(0.34389, 0.63292354, 0.20220196, 1)
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1814496184]
+offset_left = 303.0
+offset_top = 207.0
+offset_right = 790.0
+offset_bottom = 428.0
+text = "ну поздравляю чё"

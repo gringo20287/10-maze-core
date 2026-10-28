@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://si2jgpjrimq1"]
+
+[ext_resource type="Texture2D" uid="uid://wovda3kay5h3" path="res://key.png" id="1_803au"]
+[ext_resource type="Texture2D" uid="uid://cs41hle7f0up3" path="res://buttons.png" id="2_qy1eo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nk064"]
+atlas = ExtResource("2_qy1eo")
+region = Rect2(0, 0, 31.06311, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75xxy"]
+atlas = ExtResource("2_qy1eo")
+region = Rect2(30.844666, 0, 32.655518, 30.90406)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fukf3"]
+atlas = ExtResource("2_qy1eo")
+region = Rect2(62.566513, 0, 33.122025, 30.627617)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m64xk"]
+atlas = ExtResource("2_qy1eo")
+region = Rect2(96.62155, 0, 30.378448, 30)
+
+[node name="coin_score" type="CanvasLayer" unique_id=654375475]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=235030589]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_803au")
+
+[node name="Label" type="Label" parent="." unique_id=963299713]
+offset_left = 8.0
+offset_top = -4.0
+offset_right = 48.0
+offset_bottom = 19.0
+text = "0"
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="." unique_id=1525155927]
+position = Vector2(12, 598)
+texture_normal = SubResource("AtlasTexture_nk064")
+action = "ui_left"
+
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="." unique_id=28577570]
+position = Vector2(47, 599)
+texture_normal = SubResource("AtlasTexture_75xxy")
+action = "ui_right"
+
+[node name="TouchScreenButton3" type="TouchScreenButton" parent="." unique_id=1296694681]
+position = Vector2(83, 599)
+texture_normal = SubResource("AtlasTexture_fukf3")
+action = "ui_down"
+
+[node name="TouchScreenButton4" type="TouchScreenButton" parent="." unique_id=1396770463]
+position = Vector2(120, 597)
+texture_normal = SubResource("AtlasTexture_m64xk")
+action = "ui_up"
